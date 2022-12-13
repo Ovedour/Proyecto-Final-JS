@@ -1,0 +1,11 @@
+[
+    { "id": 11, "nombre": "Sushi", "precio": 120, "restaurante": "Restaurante Deguzmán", "disponibilidad": true, "imageUrl": "../images/sushi.jpg" },
+    { "id": 10, "nombre": "Pizza", "precio": 150, "restaurante": "Restaurante Deguzmán", "disponibilidad": true, "imageUrl": "../images/pizza2.png" },
+    { "id": 12, "nombre": "Hamburguesa", "precio": 80, "restaurante": "Restaurante Deguzmán", "disponibilidad": true, "imageUrl": "../images/Hamburguesa.jpg" },
+    { "id": 13, "nombre": "Camarones", "precio": 150, "restaurante": "Restaurante Deguzmán", "disponibilidad": true, "imageUrl": "../images/Camarones.jpg" },
+    { "id": 14, "nombre": "Pasta", "precio": 85, "restaurante": "Restaurante Deguzmán", "disponibilidad": true, "imageUrl": "../images/pasta.jpg" },
+    { "id": 15, "nombre": "Antojitos Mexicanos", "precio": 75, "restaurante": "Restaurante Deguzmán", "disponibilidad": true, "imageUrl": "../images/antojitos.jpg" },
+    { "id": 16, "nombre": "Cortes", "precio": 200, "restaurante": "Restaurante Deguzmán", "disponibilidad": true, "imageUrl": "../images/carne.jpg" },
+    { "id": 17, "nombre": "Burritos", "precio": 70, "restaurante": "Restaurante Deguzmán", "disponibilidad": true, "imageUrl": "../images/burrito.jpg" },
+    { "id": 18, "nombre": "Wings", "precio": 95, "restaurante": "Restaurante Deguzmán", "disponibilidad": true, "imageUrl": "../images/wings.jpg" }
+  ]

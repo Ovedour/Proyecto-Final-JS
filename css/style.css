@@ -1,0 +1,298 @@
+@charset "UTF-8";
+.ababor--card {
+  background-image: url("../images/ababor.jpg");
+  background-size: 100% 100%;
+  width: 100% !important; }
+
+.deguzman--card {
+  background-image: url("../images/deguzman.jpg");
+  background-size: 100% 100%;
+  width: 100% !important; }
+
+.ranchito--card {
+  background-image: url("../images/ranchito.jpg");
+  background-size: 100% 100%;
+  width: 100% !important; }
+
+.zaguan--card {
+  background-image: url("../images/zaguan.jpg");
+  background-size: 100% 100%;
+  width: 100% !important; }
+
+/* mapas */
+/*mixin*/
+.button-nav {
+  display: inline-block;
+  font-family: poppins;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px; }
+
+.button-nav span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+
+.button-nav span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s; }
+
+.button-nav:hover span {
+  padding-right: 25px; }
+
+.button-nav:hover span:after {
+  opacity: 1;
+  right: 0; }
+
+.fondo {
+  z-index: -9;
+  min-height: 100%;
+  min-width: 1024px;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 20%; }
+
+.imagenes-restaurantes {
+  width: 300px;
+  height: 300px;
+  object-fit: cover; }
+
+.banner {
+  height: 300px;
+  object-fit: cover; }
+
+.borde-imagenes {
+  background-color: #cfd0cc; }
+
+/*mapget*/
+.primary-color, .button-nav, .link-color, .coments-header {
+  color: #f5f5dc !important;
+  background-color: #1c1e1f !important; }
+
+.bannet-text {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 100px;
+  padding-right: 450px; }
+
+#main {
+  margin: 0; }
+
+.coments-name {
+  color: #ffffff; }
+
+.coments-text {
+  color: #cfd0cc;
+  text-align: justify; }
+
+.coments-header {
+  padding-bottom: 40px; }
+
+@media (max-width: 945px) {
+  .bannet-text {
+    font-size: 35px;
+    padding-right: 150px; } }
+
+.adjust-margin {
+  margin-bottom: 52px; }
+
+.link-hover-color {
+  text-decoration: none;
+  font-size: large;
+  text-align: center; }
+  .link-hover-color:hover {
+    color: #667934 !important; }
+
+.footer-fntsize {
+  font-size: 12px; }
+
+.footer-size {
+  padding: 20px; }
+
+.social-icon {
+  height: 25px;
+  width: 25px; }
+
+.container-fade {
+  position: relative;
+  width: 50%; }
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
+.container-fade:hover .image {
+  opacity: 0.3; }
+
+.container-fade:hover .middle {
+  opacity: 1; }
+
+.hover-galeria-text {
+  color: #f5f5dc !important;
+  background-color: #1c1e1f;
+  font-size: 16px;
+  padding: 16px 32px; }
+
+.card-color {
+  color: #ffffff !important;
+  background-color: #667934; }
+
+.card-width {
+  width: 330px !important; }
+
+.card-title-size {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 330px !important;
+  height: 33px !important; }
+
+.reset-padding {
+  padding: 0 !important; }
+
+.imagenes-galeria {
+  width: 330px;
+  height: 300px;
+  object-fit: cover; }
+
+@media only screen and (max-width: 767px) {
+  .alignment {
+    padding-left: 15vw; } }
+
+@media only screen and (max-width: 500px) {
+  .alignment {
+    padding-left: 5vw; } }
+
+.imagenes-restaurantes {
+  width: 300px;
+  height: 300px;
+  object-fit: cover; }
+
+.color-body-restaurantes {
+  background-color: #1c1e1f !important;
+  color: #f5f5dc !important; }
+
+.padding-body-restaurantes {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.button-color {
+  background-color: #667934 !important;
+  color: white; }
+
+@media only screen and (max-width: 1199px) {
+  .maxwd {
+    width: 75% !important;
+    margin-left: 4em; }
+  /* Un intento experimental de poner la barra de filtros de búsqueda arriba cuando la pantalla sea menor a 768 */
+  .reposition-aside:nth-of-type(1) {
+    order: 1; }
+  .reposition-aside:nth-of-type(2) {
+    order: 2; } }
+
+#carrito {
+  display: grid;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-left: 12%;
+  width: 50%;
+  min-height: 100px;
+  align-items: center;
+  background-color: #1c1e1f;
+  color: #f5f5dc;
+  font-size: 24px; }
+
+.carritoHeader {
+  display: grid;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 0;
+  width: 50%;
+  min-height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1e1f;
+  color: #f5f5dc; }
+
+/* Style the tab */
+.tab {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  background-color: #1c1e1f;
+  /*   margin-left: 33%;
+  margin-right: 33%; */ }
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: #f5f5dc; }
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ccc; }
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #667934; }
+
+.tablinks {
+  width: 50%; }
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.clean {
+  list-style-type: none; }
+
+.botonCompra {
+  background-color: #1c1e1f;
+  border: none; }
+
+#comprar {
+  display: grid;
+  margin-top: 33px;
+  margin-bottom: 33px;
+  margin-left: 40%;
+  margin-right: 30%;
+  width: 20%;
+  min-height: 30px;
+  align-items: center;
+  background-color: #1c1e1f;
+  color: #f5f5dc;
+  font-size: 24px; }
+
+#comprar:hover {
+  background-color: #667934; }

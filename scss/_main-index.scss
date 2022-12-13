@@ -1,0 +1,76 @@
+.fondo {
+    z-index: -9;
+    min-height: 100%;
+    min-width: 1024px;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 20%;
+}
+
+
+.imagenes-restaurantes {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.banner {
+    height: 300px;
+    object-fit: cover;
+}
+
+.borde-imagenes {
+    background-color: #cfd0cc;
+}
+
+/*mapget*/
+.primary-color {
+    color: map-get($map2 , primaryfonts) !important;
+    background-color: map-get($map , primarybackground) !important;
+}
+
+.link-color {
+    @extend .primary-color;
+}
+
+.bannet-text {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-right: 450px;
+}
+
+#main{
+    margin: 0;
+}
+
+.coments-name{
+    color: map-get($map2 , thirdfonts);
+}
+
+.coments-text{
+    color: map-get($map2 , secondaryfonts);
+    text-align: justify;
+}
+
+.coments-header{
+    @extend .primary-color;
+    padding-bottom: 40px;
+}
+
+
+
+    @media (max-width: 945px) { 
+        .bannet-text {           
+            font-size: 35px;
+            padding-right: 150px;
+        }
+    }
+
+    .adjust-margin {
+margin-bottom: 52px;
+    }
+
+    

@@ -1,0 +1,17 @@
+.link-hover-color {
+  @include link-color2($hover-color);
+}
+
+.footer-fntsize{
+  font-size: 12px;
+}
+
+.footer-size{
+  padding: 20px;
+}
+
+.social-icon{
+  height: 25px;
+  width: 25px;
+  }
+

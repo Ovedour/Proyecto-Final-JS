@@ -1,0 +1,75 @@
+.container-fade {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-fade:hover .image {
+  opacity: 0.3;
+}
+
+.container-fade:hover .middle {
+  opacity: 1;
+}
+
+.hover-galeria-text {
+  color: map-get($map2 , primaryfonts) !important;
+  background-color: map-get($map , primarybackground);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.card-color {
+  color: map-get($map2 , thirdfonts) !important;
+  background-color: map-get($map , secondarybackground);
+}
+
+.card-width {
+  width: 330px !important;
+}
+
+.card-title-size {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 330px !important;
+  height: 33px !important;
+}
+
+.reset-padding {
+  padding: 0 !important;
+}
+
+.imagenes-galeria {
+  width: 330px;
+  height: 300px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  .alignment{
+    padding-left: 15vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .alignment{
+    padding-left: 5vw;
+  }
+}
